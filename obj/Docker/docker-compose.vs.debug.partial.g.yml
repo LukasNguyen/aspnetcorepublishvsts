@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  aspnetcore2:
+    image: aspnetcore2:dev
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_aspnetcore2$
+    volumes:
+      - C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2:/app
+      - C:\Users\lukas.nguyen\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_aspnetcore2$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_aspnetcore2$ bin/Debug/netcoreapp2.0/ASPNetCore2.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""

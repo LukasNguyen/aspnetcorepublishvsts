@@ -1,0 +1,11 @@
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\bin\Debug\netcoreapp2.0\ASPNetCore2.deps.json
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\bin\Debug\netcoreapp2.0\ASPNetCore2.runtimeconfig.json
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\bin\Debug\netcoreapp2.0\ASPNetCore2.runtimeconfig.dev.json
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\bin\Debug\netcoreapp2.0\ASPNetCore2.dll
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\bin\Debug\netcoreapp2.0\ASPNetCore2.pdb
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\obj\Debug\netcoreapp2.0\ASPNetCore2.csprojResolveAssemblyReference.cache
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\obj\Debug\netcoreapp2.0\ASPNetCore2.csproj.CoreCompileInputs.cache
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\obj\Debug\netcoreapp2.0\ASPNetCore2.AssemblyInfoInputs.cache
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\obj\Debug\netcoreapp2.0\ASPNetCore2.AssemblyInfo.cs
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\obj\Debug\netcoreapp2.0\ASPNetCore2.dll
+C:\lukasnguyen\test\ASPNetCore2\ASPNetCore2\obj\Debug\netcoreapp2.0\ASPNetCore2.pdb

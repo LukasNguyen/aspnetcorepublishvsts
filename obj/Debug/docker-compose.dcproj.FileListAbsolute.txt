@@ -1,0 +1,1 @@
+C:\lukasnguyen\test\ASPNetCore2\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

@@ -1,0 +1,11 @@
+services:
+  aspnetcore2:
+    build:
+      context: C:\lukasnguyen\test\ASPNetCore2
+      dockerfile: ASPNetCore2/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: aspnetcore2
+    ports:
+    - 80/tcp
+version: '3.0'
